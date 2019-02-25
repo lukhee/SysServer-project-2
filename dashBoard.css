@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.head-content {
+    width: 100%;
+    /* padding: 10px; */
+    /* background: red; */
+    display: flex;
+    /* border-bottom: 1px solid #a7a7a71f */
+}
+
+.company-logo{
+    color: black;
+}
+
+.company-logo{
+    padding: 5px;
+    /* font-size: 20px; */
+    /* background: white; */
+    display: flex;
+}
+
+.logincontent{
+    display: flex;
+}
+
+.login-name, .login-signin{
+    display: flex;
+}
+
+.login-signin{
+    padding: 10px;
+}
+
+.signOut{
+    position:relative;
+}
+
+.side-border{
+  border-left:  4px solid green
+}
+
+.login-signout{
+    position: absolute;
+    border-radius: 5px;
+    border: 1px solid #a7a7a71f;
+    left: 10px;
+    top: 30px;
+    z-index: 1;
+    background: white;
+}
+
+.login-name>h4{
+    padding: 0 10px
+}
+
+.login-arrow{
+    padding-right: 20px
+}
+
+.company-logo>.logo{
+    margin: auto;
+    font-size: 25px;
+    line-height: 10px;
+    padding: 6px;
+    border-radius: 90px;
+    background: white;
+}
+
+.logo-here, .search-here{
+    width: 25%;
+    background: green;
+    color: white;
+    padding: 10px;
+}
+
+.switch{
+    margin: auto 5px;
+}
+
+.fa-switch{
+    /* background: white;
+    color: black; */
+}
+
+.logo-here{
+    display: flex;
+    justify-content: space-between
+}
+
+.right-login{
+    display: flex;
+}
+
+#logo{
+    margin: auto 10px;
+
+    /* color: red; */
+}
+
+.main-page{
+    width: 100%;
+    display: flex;
+    background: #a7a7a71f;
+}
+
+.search-here{
+    background: darkgreen;
+    border-top: 1px solid darkgreen;
+    border-bottom: 1px solid darkgreen;
+    display: flex;
+    padding: 10px 10px
+}
+
+.search{
+    /* width: 85% */
+    padding-left: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.search-name{
+    /* width: 200px */
+}
+
+.fa-times{
+    /* width: 20%; */
+    padding-right: 8px;
+}
+
+img{
+    width: auto;
+    height: 40px;
+    border-radius: 4px;;
+}
+
+.fa-bars{
+    color: white;
+    padding: 40px 10px;
+    background: blue;
+}
+
+.sidebar{
+    width: 25%;
+    color: #ffffff85;
+    min-height: 500px;
+    font-size: 12px;
+    line-height: 20px;
+    background: #2a3753e3;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+}
+
+.hidden-search{
+    /* position:relative; */
+    background: #006400;
+    color: white;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+.login-content{
+    padding-left: 10px;
+    display: flex;
+    border-bottom: 1px solid  #a7a7a71f;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.align-center{
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.sub-list, .search-list{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.sud-side-list{
+    /* padding-left: 6px; */
+    padding: 4px 6px;
+}
+
+.nothing{
+    width: 15%
+}
+
+.sub-lists{
+    width:100%
+}
+
+.fa-building-logo{
+    padding: 3px;
+    color: green;
+    padding-right: 8px
+}
+
+.button-clickd{
+    border-left: 4px solid green;
+    background: #2a3242;
+}
+
+.li{
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.side-list-r{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    padding-right: 10px;
+    margin: auto 0px
+}
+
+
+.side-description{
+    border-top: 1px solid hsla(0,0%,100%,.7);
+    border-bottom: 1px solid hsla(0,0%,100%,.7);
+    display: flex;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa{
+    font-size: 20px;
+    margin: auto 0px;
+    padding-left: 10px;
+}
+
+.fa-search{
+    width: 15%;
+    /* padding-left: 15px; */
+}
+
+
