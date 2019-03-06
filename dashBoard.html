@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./dashBoard.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="./dashBoard.js"></script>
 </head>
@@ -29,7 +30,7 @@
                 </div>
                 <div class="login-content BEffect">
                     <div class="logincontent align-center">
-                        <h3> Fieldco </h3>
+                        <h3>Fieldco </h3>
                     </div>
                     <div class="right-login">
                         <div class="logincontent align-center">
@@ -63,90 +64,68 @@
         <div class="main-page">
             <div class="sidebar">
                 <ul class="hidden-search">
-                    <li> <div class="li"> <i class="fa fa-building h-search" aria-hidden="true"></i> <span class="side-list-r"> <h3>Facility</h3><i class="fa fa-angle-up" aria-hidden="true"></i></span> </div>
+                    <li> <div class="li"> <i class="fa fa-building h-search" aria-hidden="true"></i> <span class="side-list-r"> Facility <i class="fa fa-angle-up" aria-hidden="true"></i></span> </div>
                         <ul class="sub-lists #sub-list">
-                            <li id="clickd-sub" class="search-list "> <div class="nothing"></div> <div class="sud-side-list">  <h3>Clusters</h3> </div> </li>
-                            <li class="search-list clickd-sub"> <div class="nothing"></div> <div class="sud-side-list">  <h3>Buildings</h3> </div> </li>
-                            <li class="search-list "> <div class="nothing"></div> <div class="sud-side-list">  <h3>Apartments</h3> </div> </li>
-                            <li class="search-list"> <div class="nothing"></div> <div class="sud-side-list">  <h3>Booking</h3> </div> </li>
+                            <li id="clickd-sub" class="search-list "> <div class="nothing"></div> <div class="sud-side-list">  Clusters </div> </li>
+                            <li class="search-list clickd-sub"> <div class="nothing"></div> <div class="sud-side-list">  Buildings </div> </li>
+                            <li class="search-list "> <div class="nothing"></div> <div class="sud-side-list">  Apartments </div> </li>
+                            <li class="search-list"> <div class="nothing"></div> <div class="sud-side-list">  Booking </div> </li>
                         </ul> 
                     </li>
                 </ul>
                 
                 <ul>
-                    <li class="side-list-r-top li"> <i class="fa fa-home" aria-hidden="true"></i> <span class="side-list-r "> <h3>Dashboard</h3></span></li>
+                    <li class="side-list-r-top li" class="sub-clicked"> <i class="fa fa-home" aria-hidden="true"></i> <span class="side-list-r "> Dashboard</span></li>
                     <li class="side-description li">FACILITY MANAGEMENT  <i class="fa fa-minus" aria-hidden="true"></i>  </li>
                     <li>
                         <ul>
-                            <li> <div class="li"> <i class="fa fa-building " aria-hidden="true"></i> <span class="side-list-r"> <h3>Facility</h3><i class="fa fa-angle-right" aria-hidden="true"></i></span> </div>
-                            <ul class="sub-lists button-clickd #sub-list">
-                                <li id="clickd-sub" class="sub-list "> <div class="nothing"></div> <div class="sud-side-list">  <h3>Clusters</h3> </div> </li>
-                                <li class="sub-list clickd-sub"> <div class="nothing"></div> <div class="sud-side-list">  <h3>Buildings</h3> </div> </li>
-                                <li class="sub-list "> <div class="nothing"></div> <div class="sud-side-list">  <h3>Apartments</h3> </div> </li>
-                                <li class="sub-list"> <div class="nothing"></div> <div class="sud-side-list">  <h3>Booking</h3> </div> </li>
+                            <li class="sub-clicked"> <div class="li li-clicked"> <i class="fa fa-building " aria-hidden="true"></i> <span class="side-list-r"> Facility<i class="fa fa-angle-right" aria-hidden="true"></i></span> </div>
+                            <ul class="sub-lists #sub-list">
+                                <li id="clickd-sub" class="sub-list new-clicked"> <div class="nothing"></div> <div class="sud-side-list">  Clusters </div> </li>
+                                <li class="sub-list clickd-sub new-clicked"> <div class="nothing"></div> <div class="sud-side-list">  Buildings </div> </li>
+                                <li class="sub-list new-clicked "> <div class="nothing"></div> <div class="sud-side-list">  Apartments </div> </li>
+                                <li class="sub-list new-clicked"> <div class="nothing"></div> <div class="sud-side-list">  Booking </div> </li>
                             </ul> 
                         </li>
-                            <li> <div class="li"> <i class="fa fa-wrench" aria-hidden="true"></i><span class="side-list-r"> <h3>Building PPM</h3><i class="fa fa-angle-right" aria-hidden="true"></i></span> </div></li>
-                            <li> <div class="li"> <i class="fa fa-building" aria-hidden="true"></i> <span class="side-list-r"> <h3>Building invoice</h3><i class="fa fa-angle-right" aria-hidden="true"></i></span></li>
-                            <li> <div class="li"> <i class="fa fa-bullhorn" aria-hidden="true"></i> <span class="side-list-r"> <h3>Bulk notification</h3><i class="fa fa-angle-right" aria-hidden="true"></i></span></div></li>
-                            <li> <div class="li"><i class="fa fa-search-plus" aria-hidden="true"></i> <span class="side-list-r"> <h3>Facility reference</h3><i class="fa fa-angle-right" aria-hidden="true"></i></span></div></li>                       
+                            <li class="sub-clicked"> <div class="li"> <i class="fa fa-wrench" aria-hidden="true"></i><span class="side-list-r"> Building PPM<i class="fa fa-angle-right" aria-hidden="true"></i></span> </div></li>
+                            <li class="sub-clicked"> <div class="li"> <i class="fa fa-building" aria-hidden="true"></i> <span class="side-list-r"> Building invoice<i class="fa fa-angle-right" aria-hidden="true"></i></span></li>
+                            <li class="sub-clicked"> <div class="li"> <i class="fa fa-bullhorn" aria-hidden="true"></i> <span class="side-list-r"> Bulk notification<i class="fa fa-angle-right" aria-hidden="true"></i></span></div></li>
+                            <li class="sub-clicked"> <div class="li"><i class="fa fa-search-plus" aria-hidden="true"></i> <span class="side-list-r"> Facility reference<i class="fa fa-angle-right" aria-hidden="true"></i></span></div></li>                       
                         </ul>
                     </li>
                     <li class="side-description li">WORK MANAGEMENT  <i class="fa fa-minus" aria-hidden="true"></i>  </li>
                     <li>
                         <ul>
-                            <li> <div class="li"> <i class="fa fa-building " aria-hidden="true"></i> <span class="side-list-r"> <h3>Facility</h3><i class="fa fa-angle-right" aria-hidden="true"></i></span> </div>
-                            <ul class="sub-lists button-clickd #sub-list">
-                                <li id="clickd-sub" class="sub-list "> <div class="nothing"></div> <div class="sud-side-list">  <h3>Clusters</h3> </div> </li>
-                                <li class="sub-list clickd-sub"> <div class="nothing"></div> <div class="sud-side-list">  <h3>Buildings</h3> </div> </li>
-                                <li class="sub-list "> <div class="nothing"></div> <div class="sud-side-list">  <h3>Apartments</h3> </div> </li>
-                                <li class="sub-list"> <div class="nothing"></div> <div class="sud-side-list">  <h3>Booking</h3> </div> </li>
-                            </ul> 
-                        </li>
-                            <li> <div class="li"> <i class="fa fa-wrench" aria-hidden="true"></i><span class="side-list-r"> <h3>Building PPM</h3><i class="fa fa-angle-right" aria-hidden="true"></i></span> </div></li>
-                            <li> <div class="li"> <i class="fa fa-building" aria-hidden="true"></i> <span class="side-list-r"> <h3>Building invoice</h3><i class="fa fa-angle-right" aria-hidden="true"></i></span></li>
-                            <li> <div class="li"> <i class="fa fa-bullhorn" aria-hidden="true"></i> <span class="side-list-r"> <h3>Bulk notification</h3><i class="fa fa-angle-right" aria-hidden="true"></i></span></div></li>
-                            <li> <div class="li"><i class="fa fa-search-plus" aria-hidden="true"></i> <span class="side-list-r"> <h3>Facility reference</h3><i class="fa fa-angle-right" aria-hidden="true"></i></span></div></li>                       
+                            <li> <div class="li"> <i class="fa fa-building " aria-hidden="true"></i> <span class="side-list-r"> Work order<i class="fa fa-angle-right" aria-hidden="true"></i></span> </div></li>
+                            <li> <div class="li"> <i class="fa fa-wrench" aria-hidden="true"></i><span class="side-list-r"> Payment requisition<i class="fa fa-angle-right" aria-hidden="true"></i></span> </div></li>
+                            <li> <div class="li"> <i class="fa fa-building" aria-hidden="true"></i> <span class="side-list-r"> Work request<i class="fa fa-angle-right" aria-hidden="true"></i></span></li>                       
                         </ul>
                     </li>
                     <li class="side-description li">ASSET MANAGEMENT <i class="fa fa-minus" aria-hidden="true"></i>  </li>
                     <li>
                         <ul>
-                            <li> <div class="li"> <i class="fa fa-building " aria-hidden="true"></i> <span class="side-list-r"> <h3>Facility</h3><i class="fa fa-angle-right" aria-hidden="true"></i></span> </div>
-                            <ul class="sub-lists button-clickd #sub-list">
-                                <li id="clickd-sub" class="sub-list "> <div class="nothing"></div> <div class="sud-side-list">  <h3>Clusters</h3> </div> </li>
-                                <li class="sub-list clickd-sub"> <div class="nothing"></div> <div class="sud-side-list">  <h3>Buildings</h3> </div> </li>
-                                <li class="sub-list "> <div class="nothing"></div> <div class="sud-side-list">  <h3>Apartments</h3> </div> </li>
-                                <li class="sub-list"> <div class="nothing"></div> <div class="sud-side-list">  <h3>Booking</h3> </div> </li>
-                            </ul> 
-                        </li>
-                            <li> <div class="li"> <i class="fa fa-wrench" aria-hidden="true"></i><span class="side-list-r"> <h3>Building PPM</h3><i class="fa fa-angle-right" aria-hidden="true"></i></span> </div></li>
-                            <li> <div class="li"> <i class="fa fa-building" aria-hidden="true"></i> <span class="side-list-r"> <h3>Building invoice</h3><i class="fa fa-angle-right" aria-hidden="true"></i></span></li>
-                            <li> <div class="li"> <i class="fa fa-bullhorn" aria-hidden="true"></i> <span class="side-list-r"> <h3>Bulk notification</h3><i class="fa fa-angle-right" aria-hidden="true"></i></span></div></li>
-                            <li> <div class="li"><i class="fa fa-search-plus" aria-hidden="true"></i> <span class="side-list-r"> <h3>Facility reference</h3><i class="fa fa-angle-right" aria-hidden="true"></i></span></div></li>                       
+                            <li> <div class="li"> <i class="fa fa-building " aria-hidden="true"></i> <span class="side-list-r"> Procurement<i class="fa fa-angle-right" aria-hidden="true"></i></span> </div></li>
+                            <li> <div class="li"> <i class="fa fa-wrench" aria-hidden="true"></i><span class="side-list-r"> Inventory<i class="fa fa-angle-right" aria-hidden="true"></i></span> </div></li>
+                            <li> <div class="li"> <i class="fa fa-building" aria-hidden="true"></i> <span class="side-list-r"> Item request<i class="fa fa-angle-right" aria-hidden="true"></i></span></li>
+                            <li> <div class="li"> <i class="fa fa-bullhorn" aria-hidden="true"></i> <span class="side-list-r"> Transfer<i class="fa fa-angle-right" aria-hidden="true"></i></span></div></li>
+                            <li> <div class="li"><i class="fa fa-search-plus" aria-hidden="true"></i> <span class="side-list-r"> Asset reference<i class="fa fa-angle-right" aria-hidden="true"></i></span></div></li>                       
                         </ul>
                     </li>
                     <li class="side-description li">LEASE MANAGEMENT <i class="fa fa-minus" aria-hidden="true"></i>  </li>
                     <li>
                         <ul>
-                            <li> <div class="li"> <i class="fa fa-building " aria-hidden="true"></i> <span class="side-list-r"> <h3>Facility</h3><i class="fa fa-angle-right" aria-hidden="true"></i></span> </div>
-                            <ul class="sub-lists button-clickd #sub-list">
-                                <li id="clickd-sub" class="sub-list "> <div class="nothing"></div> <div class="sud-side-list">  <h3>Clusters</h3> </div> </li>
-                                <li class="sub-list clickd-sub"> <div class="nothing"></div> <div class="sud-side-list">  <h3>Buildings</h3> </div> </li>
-                                <li class="sub-list "> <div class="nothing"></div> <div class="sud-side-list">  <h3>Apartments</h3> </div> </li>
-                                <li class="sub-list"> <div class="nothing"></div> <div class="sud-side-list">  <h3>Booking</h3> </div> </li>
-                            </ul> 
-                        </li>
-                            <li> <div class="li"> <i class="fa fa-wrench" aria-hidden="true"></i><span class="side-list-r"> <h3>Building PPM</h3><i class="fa fa-angle-right" aria-hidden="true"></i></span> </div></li>
-                            <li> <div class="li"> <i class="fa fa-building" aria-hidden="true"></i> <span class="side-list-r"> <h3>Building invoice</h3><i class="fa fa-angle-right" aria-hidden="true"></i></span></li>
-                            <li> <div class="li"> <i class="fa fa-bullhorn" aria-hidden="true"></i> <span class="side-list-r"> <h3>Bulk notification</h3><i class="fa fa-angle-right" aria-hidden="true"></i></span></div></li>
-                            <li> <div class="li"><i class="fa fa-search-plus" aria-hidden="true"></i> <span class="side-list-r"> <h3>Facility reference</h3><i class="fa fa-angle-right" aria-hidden="true"></i></span></div></li>                       
+                            <li> <div class="li"> <i class="fa fa-building " aria-hidden="true"></i> <span class="side-list-r"> Lease<i class="fa fa-angle-right" aria-hidden="true"></i></span> </div></li>
+                            <li> <div class="li"> <i class="fa fa-wrench" aria-hidden="true"></i><span class="side-list-r"> Invoice PPM<i class="fa fa-angle-right" aria-hidden="true"></i></span> </div></li>
+                            <li> <div class="li"> <i class="fa fa-building" aria-hidden="true"></i> <span class="side-list-r">  Remitance<i class="fa fa-angle-right" aria-hidden="true"></i></span></li>
+                            <li> <div class="li"> <i class="fa fa-bullhorn" aria-hidden="true"></i> <span class="side-list-r"> Lease reference<i class="fa fa-angle-right" aria-hidden="true"></i></span></div></li>                       
                         </ul>
                     </li>
                 </ul>
             </div>
             <div class="content-page">
-                <!-- main content here -->
+                <!-- main content here jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjllllll
+                mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmooooooooooooooooooooooooooooh
+                nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnniiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiippppppppppppppppppppppppppp99999999999999999 -->
             </div>
 
         </div>

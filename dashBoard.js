@@ -10,7 +10,8 @@ $(document).ready(function(){
         $("#on").show();
         $("#off").hide();
         $(".side-list-r").css({"display":"none"})
-        $(".sub-list").css({"display":"none"})
+        $(".sub-list").hide();
+        // $(".sub-list").css({"display":"none"})
         $(".sidebar").css({"width":"4%"})
         // $(".li").css({"padding":"20px"})
       });
@@ -19,7 +20,7 @@ $(document).ready(function(){
         $("#off").show();
         $("#on").hide();
         $(".side-list-r").css({"display":"flex"})
-        $(".sidebar").css({"width":"25%"})
+        $(".sidebar").css({"width":"20%"})
       });
 
       $(".search-here").click(function(){
@@ -32,13 +33,17 @@ $(document).ready(function(){
         $(".login-signout").toggle();
       });
 
-      $(".li").click(function(){
-        $("this").css({"color":"red"})
+      $(".li-clicked").click(function(){
         $(".sub-list").toggle();
       });
-      $(".li").on('click', function() {
-        $(this).addClass("button-clickd");
-    });
+
+      $(".sub-clicked").click(function(){
+        $(this).addClass('button-clickd').siblings().removeClass('button-clickd');
+      });
+    
+      $(".new-clicked").click(function(){
+        $(this).addClass('change-color').siblings().removeClass('change-color');
+      });
 
     
 
