@@ -9,6 +9,7 @@ $(document).ready(function(){
     $("#off").click(function(){
         $("#on").show();
         $("#off").hide();
+        $(".hidden-search").hide();
         $(".side-list-r").css({"display":"none"})
         $(".sub-list").hide();
         // $(".sub-list").css({"display":"none"})
@@ -19,6 +20,7 @@ $(document).ready(function(){
       $("#on").click(function(){
         $("#off").show();
         $("#on").hide();
+        $(".hidden-search").hide();
         $(".side-list-r").css({"display":"flex"})
         $(".sidebar").css({"width":"20%"})
       });
@@ -40,6 +42,7 @@ $(document).ready(function(){
       $(".sub-clicked").click(function(){
         $(".hidden-search").hide();
         $(this).addClass('button-clickd').siblings().removeClass('button-clickd');
+        // $(".sub-list").hide();
       });
     
       $(".new-clicked").click(function(){
