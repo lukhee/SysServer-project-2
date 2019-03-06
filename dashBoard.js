@@ -38,6 +38,7 @@ $(document).ready(function(){
       });
 
       $(".sub-clicked").click(function(){
+        $(".hidden-search").hide();
         $(this).addClass('button-clickd').siblings().removeClass('button-clickd');
       });
     
